@@ -113,11 +113,13 @@ sensor:
       name: ${friendly_name} Power Factor L3
       filters:
         multiply: 100
-
+    power_delivered:
+      name: ${friendly_name} Power delivered
+      accuracy_decimals: 3
     power_returned:
-      name: ${friendly_name} "Power returned"
+      name: ${friendly_name} Power returned
       accuracy_decimals: 3
     reactive_power_delivered:
-      name: ${friendly_name} "Reactive Power Delivered"
+      name: ${friendly_name} Reactive Power Delivered
     reactive_power_returned:
-      name: ${friendly_name} "Reactive Power Returned"
+      name: ${friendly_name} Reactive Power Returned
