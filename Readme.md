@@ -17,5 +17,5 @@ esphome:
   name_add_mac_suffix: false
   project:
     name: giedriuspot.esodsmr
-    version: "2.0"
+    version: "2.1"
 ```
