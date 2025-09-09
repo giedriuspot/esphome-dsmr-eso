@@ -114,10 +114,10 @@ sensor:
       filters:
         multiply: 100
     power_delivered:
-      name: ${friendly_name} Power delivered
+      name: ${friendly_name} Power Delivered
       accuracy_decimals: 3
     power_returned:
-      name: ${friendly_name} Power returned
+      name: ${friendly_name} Power Returned
       accuracy_decimals: 3
     reactive_power_delivered:
       name: ${friendly_name} Reactive Power Delivered
