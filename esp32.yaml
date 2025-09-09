@@ -3,17 +3,17 @@ substitutions:
   friendly_name: DSMR Reader
 
 external_components:
-  - source: github://geduxas/esphome-dsmr-eso@main
+  - source: github://giedriuspot/esphome-dsmr-eso@main
     refresh: 0s
+esp32:
+  board: nodemcu-32s
 
 esphome:
   name: ${device_name}
-  platform: esp32
   #esp8266_restore_from_flash: true
-  board: nodemcu-32s
   name_add_mac_suffix: false
   project:
-    name: geduxas.esodsmr
+    name: giedriuspot.esodsmr
     version: "2.0"
 
 wifi:
@@ -37,7 +37,7 @@ api:
 ota:
 
 dashboard_import:
-  package_import_url: github://geduxas/esphome-dsmr-eso/slimmelezer.yaml@main
+  package_import_url: github://giedriuspot/esphome-dsmr-eso/slimmelezer.yaml@main
   import_full_config: true
 
 web_server:
@@ -376,7 +376,7 @@ sensor:
     voltage_swell_l1:
       name: ${friendly_name} Voltage Last Swell L1
     voltage_swell_l2:
-      name: ${friendly_name} Voltage Last Swell L3
+      name: ${friendly_name} Voltage Last Swell L2
     voltage_swell_l3:
       name: ${friendly_name} Voltage Last Swell L3
     fw_core_version:

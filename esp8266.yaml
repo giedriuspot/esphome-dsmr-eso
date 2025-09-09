@@ -3,17 +3,18 @@ substitutions:
   friendly_name: DSMR Reader
 
 external_components:
-  - source: github://geduxas/esphome-dsmr-eso@main
+  - source: github://giedriuspot/esphome-dsmr-eso@main
     refresh: 0s
+
+esp8266:
+  board: d1_mini
 
 esphome:
   name: ${device_name}
-  platform: ESP8266
-  board: d1_mini
   name_add_mac_suffix: false
   project:
-    name: geduxas.esodsmr
-    version: "2.0"
+    name: giedriuspot.esodsmr
+    version: "2.1"
 
 wifi:
   # remove leading '#' and fill in your wifi details
@@ -40,7 +41,7 @@ ota:
     password: !secret ota_password
 
 #dashboard_import:
-#  package_import_url: github://geduxas/esphome-dsmr-eso/slimmelezer.yaml@main
+#  package_import_url: github://giedriuspot/esphome-dsmr-eso/slimmelezer.yaml@main
 #  import_full_config: true
 
 web_server:

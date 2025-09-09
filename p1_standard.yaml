@@ -1,5 +1,5 @@
 packages:
-  geduxas.base: github://geduxas/esphome-dsmr-eso/esp8266.yaml@main
+  geduxas.base: github://giedriuspot/esphome-dsmr-eso/esp8266.yaml@main
   
 
 sensor:

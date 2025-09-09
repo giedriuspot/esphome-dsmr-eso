@@ -4,14 +4,15 @@ substitutions:
   friendly_name: DSMR Reader
 
 external_components:
-  - source: github://geduxas/esphome-dsmr-eso@main
+  - source: github://giedriuspot/esphome-dsmr-eso@main
     refresh: 0s
+
+esp8266:
+  board: d1_mini
+  restore_from_flash: true
 
 esphome:
   name: ${device_name}
-  platform: ESP8266
-  esp8266_restore_from_flash: true
-  board: d1_mini
   name_add_mac_suffix: false
   project:
     name: geduxas.esodsmr
