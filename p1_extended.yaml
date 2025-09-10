@@ -1,3 +1,7 @@
+external_components:
+  - source: github://pr#3384  ## Could not allocate memory fix
+    components: [ json ]
+
 packages:
   giedriuspot.base: github://giedriuspot/esphome-dsmr-eso/esp8266.yaml@main
  
