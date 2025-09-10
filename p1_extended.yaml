@@ -29,10 +29,13 @@ sensor:
       name: Voltage L3
     current_l1:
       name: Current L1
+      accuracy_decimals: 1
     current_l2:
       name: Current L2
+      accuracy_decimals: 1
     current_l3:
       name: Current L3
+      accuracy_decimals: 1
     electricity_failures:
       name: Electricity Failures
       icon: mdi:alert
