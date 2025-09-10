@@ -127,3 +127,23 @@ sensor:
       name: Reactive Power Consumed
     reactive_power_returned:
       name: Reactive Power Produced
+      
+text_sensor:
+  - platform: dsmr_eso
+    identification:
+      name: "DSMR Identification"
+    fw_core_checksum:
+      name: ${friendly_name} Core checskum
+    fw_module_checksum:
+      name: ${friendly_name} Module checskum
+    equipment_id:
+      name: ${friendly_name} Equipment identifier
+    consumer_msg:
+      name: ${friendly_name} Consumer Message Text
+  - platform: wifi_info
+    ip_address:
+      name: "SlimmeLezer IP Address"
+    ssid:
+      name: "SlimmeLezer Wi-Fi SSID"
+    bssid:
+      name: "SlimmeLezer Wi-Fi BSSID"
