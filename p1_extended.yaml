@@ -4,122 +4,122 @@ packages:
 sensor:
   - platform: dsmr_eso
     energy_delivered_lux:
-      name: ${friendly_name} Energy Delivered total
+      name: Energy Consumed total
     energy_delivered_tariff1:
-      name: ${friendly_name} Energy Delivered Tariff 1
+      name: Energy Consumed Tariff 1
     energy_delivered_tariff2:
-      name: ${friendly_name} Energy Delivered Tariff 2
+      name: Energy Consumed Tariff 2
     energy_delivered_tariff3:
-      name: ${friendly_name} Energy Delivered Tariff 3
+      name: Energy Consumed Tariff 3
     energy_delivered_tariff4:
-      name: ${friendly_name} Energy Delivered Tariff 4
+      name: Energy Consumed Tariff 4
     energy_returned_lux:
-      name: ${friendly_name} Energy Returned total
+      name: Energy Produced total
     power_delivered_l1:
-      name: ${friendly_name} Power Delivered L1
+      name: Power Consumed L1
     power_delivered_l2:
-      name: ${friendly_name} Power Delivered L2
+      name: Power Consumed L2
     power_delivered_l3:
-      name: ${friendly_name} Power Delivered L3
+      name: Power Consumed L3
     voltage_l1:
-      name: ${friendly_name} Voltage L1
+      name: Voltage L1
     voltage_l2:
-      name: ${friendly_name} Voltage L2
+      name: Voltage L2
     voltage_l3:
-      name: ${friendly_name} Voltage L3
+      name: Voltage L3
     current_l1:
-      name: ${friendly_name} Current L1
+      name: Current L1
     current_l2:
-      name: ${friendly_name} Current L2
+      name: Current L2
     current_l3:
-      name: ${friendly_name} Current L3
+      name: Current L3
     electricity_failures:
-      name: ${friendly_name} Electricity Failures
+      name: Electricity Failures
       icon: mdi:alert
     electricity_sags_l1:
-      name: ${friendly_name} Number of voltage sags L1
+      name: Number of voltage sags L1
     electricity_sags_l2:
-      name: ${friendly_name} Number of voltage sags L2
+      name: Number of voltage sags L2
     electricity_sags_l3:
-      name: ${friendly_name} Number of voltage sags L3
+      name: Number of voltage sags L3
     electricity_swells_l1:
-      name: ${friendly_name} Number of voltage swells L1
+      name: Number of voltage swells L1
     electricity_swells_l2:
-      name: ${friendly_name} Number of voltage swells L2
+      name: Number of voltage swells L2
     electricity_swells_l3:
-      name: ${friendly_name} Number of voltage swells L3
+      name: Number of voltage swells L3
 
     total_imported_energy:
-      name: ${friendly_name} Reactive Energy Delivered 
+      name: Reactive Energy Consumed 
     total_exported_energy:
-      name: ${friendly_name} Reactive Energy Returned 
+      name: Reactive Energy Produced 
     power_returned_l1:
-      name: ${friendly_name} Power Returned L1
+      name: Power Produced L1
     power_returned_l2:
-      name: ${friendly_name} Power Returned L2
+      name: Power Produced L2
     power_returned_l3:
-      name: ${friendly_name} Power Returned L3
+      name: Power Produced L3
     reactive_power_delivered_l1:
-      name: ${friendly_name} Reactive Power Delivered L1
+      name: Reactive Power Consumed L1
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000  
     reactive_power_delivered_l2:
-      name: ${friendly_name} Reactive Power Delivered L2
+      name: Reactive Power Consumed L2
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000
     reactive_power_delivered_l3:
-      name: ${friendly_name} Reactive Power Delivered L3
+      name: Reactive Power Consumed L3
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000
     reactive_power_returned_l1:
-      name: ${friendly_name} Reactive Power Returned L1
+      name: Reactive Power Produced L1
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000
     reactive_power_returned_l2:
-      name: ${friendly_name} Reactive Power Returned L2
+      name: Reactive Power Produced L2
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000
     reactive_power_returned_l3:
-      name: ${friendly_name} Reactive Power Returned L3
+      name: Reactive Power Produced L3
       unit_of_measurement: "var"
       accuracy_decimals: 0
       filters:
         multiply: 1000
     frequency:
-      name: ${friendly_name} Frequency
+      name: Frequency
     power_factor:
-      name: ${friendly_name} Power Factor
+      name: Power Factor
       filters:
         multiply: 100
     power_factor_l1:
-      name: ${friendly_name} Power Factor L1
+      name: Power Factor L1
       filters:
         multiply: 100
     power_factor_l2:
-      name: ${friendly_name} Power Factor L2
+      name: Power Factor L2
       filters:
         multiply: 100
     power_factor_l3:
-      name: ${friendly_name} Power Factor L3
+      name: Power Factor L3
       filters:
         multiply: 100
     power_delivered:
-      name: ${friendly_name} Power Delivered
+      name: Power Consumed
       accuracy_decimals: 3
     power_returned:
-      name: ${friendly_name} Power Returned
+      name: Power Produced
       accuracy_decimals: 3
     reactive_power_delivered:
-      name: ${friendly_name} Reactive Power Delivered
+      name: Reactive Power Consumed
     reactive_power_returned:
-      name: ${friendly_name} Reactive Power Returned
+      name: Reactive Power Produced
