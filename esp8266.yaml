@@ -5,8 +5,6 @@ substitutions:
 external_components:
   - source: github://giedriuspot/esphome-dsmr-eso@main
     refresh: 0s
-  - source: github://pr#3384  ## Could not allocate memory fix
-    components: [ json ]
 
 esp8266:
   board: d1_mini
