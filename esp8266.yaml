@@ -16,7 +16,7 @@ esphome:
   name_add_mac_suffix: false
   project:
     name: giedriuspot.esodsmr
-    version: "2.2"
+    version: "2.3"
 
 wifi:
   # remove leading '#' and fill in your wifi details
