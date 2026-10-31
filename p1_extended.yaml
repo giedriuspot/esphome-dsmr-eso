@@ -69,10 +69,16 @@ sensor:
 
     total_imported_energy:
       name: Reactive Energy Consumed 
+      device_class: reactive_energy
+      state_class: total_increasing
+      unit_of_measurement: "kvarh"
       filters:
         - delta: 0.1
     total_exported_energy:
       name: Reactive Energy Produced 
+      device_class: reactive_energy
+      state_class: total_increasing
+      unit_of_measurement: "kvarh"
       filters:
         - delta: 0.1
     power_returned_l1:
@@ -155,10 +161,12 @@ sensor:
       accuracy_decimals: 3
     reactive_power_delivered:
       name: Reactive Power Consumed
+      unit_of_measurement: "kvar"
       filters:
         - delta: 0.05
     reactive_power_returned:
       name: Reactive Power Produced
+      unit_of_measurement: "kvar"
       filters:
         - delta: 0.05
 
